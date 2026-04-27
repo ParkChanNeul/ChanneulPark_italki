@@ -23,7 +23,7 @@
 ```
 선생: "Quick review — how do you tell a taxi to go to Hongdae?"
 (WAIT 3초+)
-학생: "기사님, 홍대으로 가주세요?"
+학생: "기사님, 홍대로 가주세요?"
 선생: "Perfect! And if the driver talks too much?"
 (WAIT 3초+)
 학생: "아 네~ / 잘 모르겠어요~ / 죄송해요~"
@@ -395,7 +395,7 @@
 "Incredible work today! Look at how much you can do now."
 ```
 
-**SHOW IT**: Google Docs 정리
+**SHOW IT**: Google Docs에 정리 → Classroom에 업로드
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -452,6 +452,14 @@
  With me right behind you. Get excited! ☕🔥"
 ```
 
+### 숙제 안내
+
+```
+"I'll share your Week 2 Quizlet set on Classroom now.
+ Review the fan reaction patterns — especially the emotion stacking.
+ And keep the basics Quizlet going too — those foundations matter."
+```
+
 ---
 
 # 📌 수업 운영 메모 (파운더용)
@@ -465,7 +473,8 @@
 - [ ] **교정 타이밍**: Role Play 중 끊지 않고 끝까지 듣기
 
 ## 수업 후 해야 할 것
-- [ ] Google Docs에 Week 2 치트시트 정리
-- [ ] Week 1 치트시트와 합쳐서 누적 문서 만들기
-- [ ] 학생에게 Docs 링크 전달
+- [ ] Google Docs에 Week 2 치트시트 정리 (누적 문서에 페이지 추가)
+- [ ] Google Classroom에 Docs 업데이트 알림
+- [ ] Week 2 복습 Quizlet 세트 전달 (숙제)
+- [ ] 다음 주 예습 Quizlet 세트 전달 (숙제)
 - [ ] Week 3 카페/쇼핑 자료 + Field Trip 준비

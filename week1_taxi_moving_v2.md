@@ -63,15 +63,15 @@
 **SHOW IT**: 아이패드에 색상 분해
 
 ```
-🟢기사님,    🟢홍대으로     🔵가주세요.
+🟢기사님,    🟢홍대로       🔵가주세요.
   (Driver)    (to Hongdae)    (please go)
-  gi-sa-nim   hong-dae-eu-ro  ga-ju-se-yo
+  gi-sa-nim   hong-dae-ro     ga-ju-se-yo
 ```
 
 **SPLIT** (영어로 설명):
 ```
 "기사님 = Driver (it's the respectful way to call them)
- 홍대으로 = to Hongdae (으로 means 'toward')
+ 홍대로 = to Hongdae (로/으로 means 'toward' — 로 after no 받침)
  가주세요 = please go (가다 = go + 주세요 = please do it for me)"
 ```
 
@@ -79,7 +79,7 @@
 ```
 "In Korea, calling someone by their role title is the polite thing to do.
  기사님 literally means 'Mr. Driver.' It shows instant respect.
- If you just say '홍대으로 가주세요' without '기사님' — it still works,
+ If you just say '홍대로 가주세요' without '기사님' — it still works,
  but adding it makes a HUGE difference. Koreans notice this."
 ```
 
@@ -345,7 +345,7 @@
 "Amazing work today! Let me show you everything we built."
 ```
 
-**SHOW IT**: Google Docs 정리 (화면 공유 or 아이패드)
+**SHOW IT**: Google Docs에 정리 → Classroom에 업로드
 
 ### 오늘의 정리
 
@@ -359,8 +359,8 @@
   -요 (-yo) = Polite ending
 
 🟢 핵심 표현:
-  기사님, OO으로 가주세요.     → Please go to OO.
-  (gi-sa-nim, OO-eu-ro ga-ju-se-yo)
+  기사님, OO(으)로 가주세요.     → Please go to OO.
+  (gi-sa-nim, OO-(eu)ro ga-ju-se-yo)
 
   여기서 세워주세요.            → Please stop here.
   (yeo-gi-seo se-wo-ju-se-yo)
@@ -390,10 +390,18 @@
 
 ```
 "This week, when you take a taxi, try saying just ONE thing:
- '기사님, OO으로 가주세요.'
+ '기사님, OO(으)로 가주세요.'
  
  If the driver talks to you, try '아 네~' with a smile.
  That's it. One sentence. One reaction. You got this."
+```
+
+### 숙제 안내
+
+```
+"I'll share your Week 1 review Quizlet set on Classroom.
+ Go through the flashcards before next week — words AND sentence patterns.
+ If anything is confusing, drop a comment in Classroom and I'll explain."
 ```
 
 ### 다음 수업 예고
@@ -418,7 +426,9 @@
 - [ ] **교정 타이밍**: 학생 말 끊지 않고 끝까지 듣고 교정했는가?
 
 ## 수업 후 해야 할 것
-- [ ] 아이패드 필기 내용을 Google Docs로 정리
+- [ ] 아이패드 필기 내용을 Google Docs로 정리 (학생별 누적 문서에 페이지 추가)
 - [ ] 치트시트에 발음 영문 표기 확인
-- [ ] 학생에게 Docs 링크 전달
+- [ ] Google Classroom에 Docs 업데이트 알림
+- [ ] Week 1 복습 Quizlet 세트 전달 (숙제)
+- [ ] 다음 주 예습 Quizlet 세트 전달 (숙제)
 - [ ] 다음 주 팬 소통 수업 자료 준비

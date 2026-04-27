@@ -349,7 +349,7 @@ Q3: "🔵포인트 적립하시나요?"
 [택시]
 선생 (기사님): "어디로 가요?"
 (WAIT 3초+)
-학생: "기사님, 홍대으로 가주세요."
+학생: "기사님, 홍대로 가주세요."
 
 기사님이 말 많이 함:
 선생: "홍대 좋지~ 젊은 사람 많고~"
@@ -399,7 +399,7 @@ Q3: "🔵포인트 적립하시나요?"
 "Incredible progress! Here's your updated cheat sheet."
 ```
 
-**SHOW IT**: Google Docs 정리
+**SHOW IT**: Google Docs에 정리 → Classroom에 업로드
 
 ```
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -455,6 +455,14 @@ Q3: "🔵포인트 적립하시나요?"
  Fair trade? 😄☕"
 ```
 
+### 숙제 안내
+
+```
+"Week 3 Quizlet is going up on Classroom now.
+ Focus on the cafe ordering patterns — you'll need them for the Field Trip.
+ And don't forget the 기초 단어장 too."
+```
+
 ---
 
 # 📌 수업 운영 메모 (파운더용)
@@ -475,6 +483,9 @@ Q3: "🔵포인트 적립하시나요?"
 - [ ] Google Docs에 실전에서 나온 새 표현 추가
 
 ## 수업 후 해야 할 것
-- [ ] Google Docs에 Week 3 치트시트 추가 (누적)
+- [ ] Google Docs에 Week 3 치트시트 추가 (누적 문서에 페이지 추가)
+- [ ] Google Classroom에 Docs 업데이트 알림
+- [ ] Week 3 복습 Quizlet 세트 전달 (숙제)
+- [ ] 다음 주 예습 Quizlet 세트 전달 (숙제)
 - [ ] Field Trip 결과 기록
 - [ ] Week 4 브이로그 오프닝 자료 준비

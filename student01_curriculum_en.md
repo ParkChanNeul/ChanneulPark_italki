@@ -23,7 +23,7 @@
 *Crushing her most urgent need in the very first week to guarantee 100% satisfaction.*
 
 *   **Scenario 1: Stating and changing destinations**
-    *   Super simple survival phrases: "기사님, OO으로 가주세요 (Sir, please go to OO)", "여기서 세워주세요 (Please pull over here)."
+    *   Super simple survival phrases: "기사님, OO(으)로 가주세요 (Sir, please go to OO)", "여기서 세워주세요 (Please pull over here)."
 *   **Scenario 2: [Core] Politely cutting off conversations (Cultural Coaching)**
     *   Explain the Korean "Elder-Youth" culture (why older drivers talk so much, and how to disengage without offending them).
     *   **Magic Defense Phrases**: Intense training on reactions to use when she wants to escape a conversation with a smile.

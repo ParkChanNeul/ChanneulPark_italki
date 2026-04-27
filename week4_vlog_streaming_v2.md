@@ -333,7 +333,7 @@ Option C — 구독 유도
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🚕 WEEK 1 — Taxi:
-  기사님, OO으로 가주세요          → Please go to OO
+  기사님, OO(으)로 가주세요          → Please go to OO
   여기서 세워주세요                → Please stop here
   잘 모르겠어요~ / 아 네~         → Gentle deflection
   한국말 잘 몰라요~ 죄송해요~      → I don't know Korean well~
@@ -372,7 +372,7 @@ Option C — 구독 유도
 
 [택시]
 선생: "어디로 갈까요?"
-학생: "기사님, 홍대으로 가주세요."
+학생: "기사님, 홍대로 가주세요."
 선생: "한국 왜 왔어요?"
 학생: "아 네~ ㅎㅎ (or 잘 모르겠어요~)"
 학생: "여기서 세워주세요."
@@ -408,13 +408,17 @@ Option C — 구독 유도
 "Amazing 4 weeks. Let's talk about what's next."
 ```
 
-### Google Docs 최종 리뷰
+### Google Docs 최종 리뷰 + Classroom 안내
 
 ```
 선생: "Let's look at your Google Doc together.
       This is your PERMANENT cheat sheet.
       Every sentence we've practiced is here.
-      You can open this on your phone anytime."
+      You can open this on your phone anytime.
+      
+      Everything is on Classroom too —
+      your Quizlet sets, lesson notes, all in one place.
+      Whenever you need to review, just open Classroom."
 ```
 
 학생과 함께 스마트폰에서 Google Docs 열어서 확인
@@ -479,7 +483,11 @@ Option C — 구독 유도
 - [ ] 장기 관계 구축: 오프라인 모임, 한국 친구 소개 등 자연스럽게
 
 ## 수업 후 해야 할 것
-- [ ] Google Docs 4주 통합 치트시트 최종 정리
-- [ ] 학생 스마트폰에서 접근 확인
+- [ ] Google Docs 4주 통합 치트시트 최종 정리 (누적 문서 최상단에 고정)
+- [ ] Google Classroom에 최종 Docs 업데이트 알림
+- [ ] Week 4 복습 Quizlet 세트 전달 (최종)
+- [ ] 4주 통합 복습 Quizlet 세트 전달 (종합)
+- [ ] 학생 스마트폰에서 Classroom + Docs 접근 확인
 - [ ] 리뷰 요청 팔로업 (24시간 후 가볍게)
 - [ ] 1개월 KPI 기록 (전환율, 만족도, 리뷰 수)
+
