@@ -210,28 +210,8 @@ cards:
 
 ## Quizlet Import
 
-> 아래 내용을 전체 복사 → Quizlet "가져오기" → 붙여넣기
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
 > 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
 
-```
-가다	To go — Ex: 홍대로 가주세요 (Please go to Hongdae) | ga-da
-오다	To come — Ex: 여기로 와주세요 (Please come here) | o-da
-하다	To do — Most versatile verb. Noun+하다=verb. Ex: 뭐 해요? | ha-da
-먹다	To eat — Ex: 먹고 갈게요 (For here) | meok-da
-마시다	To drink — Ex: 커피 마셔요 (I drink coffee) | ma-si-da
-보다	To see / to watch — Ex: 혼자 볼게요 (Just browsing) | bo-da
-알다	To know — Ex: 알겠어요 (I understand) | al-da
-모르다	To not know — Ex: 잘 모르겠어요 (I'm not sure) | mo-reu-da
-있다	To have / to exist — Ex: 있어요? (Do you have it?) | iss-da
-없다	To not have / to not exist — Ex: 없어요~ (I don't have one) | eop-da
-주다	To give — Base of -주세요 pattern. Ex: 물 주세요 | ju-da
-사다	To buy — Ex: 이거 살게요 (I'll buy this) | sa-da
-찍다	To take (a photo) — Ex: 같이 찍어요! (Let's take one!) | jjik-da
-좋아하다	To like — Ex: 한국 좋아해요 (I like Korea) | jo-a-ha-da
-세우다	To stop / to pull over — Ex: 세워주세요 (Please stop) | se-u-da
-드리다	To give (humble) — Ex: 영수증 드릴까요? (Receipt?) | deu-ri-da
-눌러주다	To press (for someone) — Ex: 좋아요 눌러줘~ (Hit like~) | nul-reo-ju-da
-만나다	To meet — Ex: 다음에 또 만나! (See you next time!) | man-na-da
-기다리다	To wait — Ex: 기다려줘! (Wait for me!) | gi-da-ri-da
-부탁하다	To ask a favor — Ex: 진짜 부탁해~ (Seriously please~) | bu-tak-ha-da
-```
+- 바로 붙여넣기용 파일: [`import/foundation_verbs.tsv`](./import/foundation_verbs.tsv)

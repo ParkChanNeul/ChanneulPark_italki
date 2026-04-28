@@ -48,25 +48,8 @@ cards:
 
 ## Quizlet Import
 
-```
-너무	So / too (much) — emotion amplifier. Ex: 너무 감사해요 | neo-mu
-진짜	Really / for real — Ex: 진짜 예뻐요 | jin-jja
-같이	Together — pronounced 가치. Ex: 같이 찍어요! | ga-chi
-아직	Still / not yet — Ex: 아직 많이 부족해요~ | a-jik
-열심히	Hard / diligently — Ex: 열심히 할게요! | yeol-sim-hi
--아요/어요	Polite present tense (feelings) — 양성→아요, 음성→어요, 하다→해요 | -a-yo/eo-yo
--ㄹ게요	I will~ (promise/intention) — Ex: 열심히 할게요! | -l-ge-yo
-[Situation] A fan recognizes you on the street	헐! 대박! | heol! dae-bak!
-[Situation] A fan says they love your content	진짜요? 너무 감사해요 ㅠㅠ | jin-jja-yo? neo-mu gam-sa-hae-yo
-[Situation] A fan compliments your appearance	아니에요~ 부끄러워요 ㅎㅎ | a-ni-e-yo~ bu-kkeu-reo-wo-yo
-[Situation] A fan says your Korean is great	아직 많이 부족해요~ | a-jik ma-ni bu-jo-kae-yo
-[Situation] You want to take a photo with a fan	같이 찍어요! | ga-chi jji-geo-yo!
-[Situation] Taking the selfie — countdown	하나 둘 셋~! | ha-na dul set~!
-[Situation] Someone flatters you too much	에이~ 아니에요~ | e-i~ a-ni-e-yo~
-[When] Overwhelmed by kindness — stack emotions	아 진짜 너무 감사해요 ㅠㅠ | ah jin-jja neo-mu gam-sa-hae-yo
-[When] Maximum surprise — triple reaction	헐 대박 진짜?! | heol dae-bak jin-jja?!
-[When] Complimenting a fan back	너무 예뻐요! | neo-mu ye-ppeo-yo!
-[When] Saying goodbye to a fan warmly	정말 고마워요~ | jeong-mal go-ma-wo-yo~
-부끄럽다	To be shy / embarrassed — ㅂ irregular: 부끄러워요 | bu-kkeu-reop-da
-사진	Photo / picture — Ex: 사진 찍어요 | sa-jin
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/week2_review.tsv`](./import/week2_review.tsv)

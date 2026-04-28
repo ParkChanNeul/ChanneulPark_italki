@@ -31,6 +31,7 @@
 | [`lessons/`](./lessons/) | Week 1-4 수업안 | 실제 수업 준비, 수업 후 개선할 때 |
 | [`students/`](./students/) | 학생별 맞춤 커리큘럼/매뉴얼 | 특정 학생 자료를 만들거나 수정할 때 |
 | [`quizlet/`](./quizlet/) | 낱말 카드 세트 | 예습/복습 카드 생성, Quizlet 업로드할 때 |
+| [`templates/`](./templates/) | 학생 전달용 템플릿 | Google Docs 수업 기록 양식을 만들거나 복제할 때 |
 | [`assets/`](./assets/) | PDF, 슬라이드 등 산출물 | 학생에게 보여주는 시각 자료를 관리할 때 |
 | [`archive/`](./archive/) | 대화 로그, 과거 작업 기록 | 맥락 복원이나 의사결정 히스토리가 필요할 때 |
 
@@ -73,7 +74,13 @@
 
 | 디렉토리 | 내용 |
 |----------|------|
-| [`quizlet/`](./quizlet/) | 11세트 / 186장. Foundation(64) + Weekly(80) + Practical(42). 자세한 인덱스는 [`quizlet/README.md`](./quizlet/README.md) 참조. |
+| [`quizlet/`](./quizlet/) | Reference 11세트 / 186장 + Q/A Drill 11세트 / 186장. 순수 TSV import 파일 포함. 자세한 인덱스는 [`quizlet/README.md`](./quizlet/README.md) 참조. |
+
+### 템플릿
+
+| 파일 | 설명 |
+|------|------|
+| [`templates/google_docs_lesson_note.md`](./templates/google_docs_lesson_note.md) | 학생별 누적 Google Docs 수업 노트 원본 템플릿. 자세한 문법/문화 설명, 시각적 문법 박스, 학생 조합 기록용. |
 
 ### 참고 자료
 
@@ -95,7 +102,8 @@
 ### Quizlet 세트를 생성할 때
 1. **먼저 읽을 것**: `quizlet/_template.md` (YAML 구조 + Front/Back 규칙)
 2. **소스**: 해당 `lessons/week{N}_*_v2.md`의 치트시트에서 카드 데이터 추출
-3. **출력**: YAML 메타데이터 + Quizlet Import TSV 둘 다 생성
+3. **출력**: YAML 메타데이터 + `quizlet/import/{set_name}.tsv` + 필요 시 `quizlet/import/qna/{set_name}_qna.tsv` 생성
+4. **원칙**: Reference는 짧은 복습 카드, Q/A Drill은 질문 응답 조합 훈련, 자세한 문법/문화 설명은 Google Docs 템플릿으로 분리
 
 ### 브랜드/전략 문서를 수정할 때
 1. **정합성 체크**: `methodology/teaching_methodology.md` ↔ `strategy/italki_brand_guideline.md` ↔ `strategy/italki_strategy.md` 3개 문서 동기화 필수
@@ -105,6 +113,7 @@
 1. `students/student01/curriculum.md`를 참고 템플릿으로 사용
 2. `lessons/`의 Week v2 파일에서 시나리오를 학생 배경에 맞게 커스텀
 3. Quizlet 세트는 `_template.md` 규칙에 따라 자동 생성
+4. 수업 후 기록은 `templates/google_docs_lesson_note.md`를 복제해서 학생별 Google Docs에 정리
 
 ---
 

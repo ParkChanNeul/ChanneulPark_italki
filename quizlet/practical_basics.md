@@ -45,20 +45,8 @@ cards:
 
 ## Quizlet Import
 
-```
-뭐	What — 뭐예요? (What is it?) | mwo
-어디	Where — 어디예요? (Where is it?) | eo-di
-언제	When — 언제요? (When?) | eon-je
-왜	Why — 왜요? (Why?) | wae
-어떻게	How — 어떻게 해요? (How do I do it?) | eo-tteo-ke
-누구	Who — 누구예요? (Who is it?) | nu-gu
-오늘	Today — 오늘도 왔어! (I'm here again today!) | o-neul
-내일	Tomorrow — 내일 봐요! (See you tomorrow!) | nae-il
-어제	Yesterday — 어제 뭐 했어요? (What did you do?) | eo-je
-지금	Now — 지금 어디예요? (Where are you now?) | ji-geum
-다음에	Next time — 다음에 또 만나! (See you next time!) | da-eu-me
-여기	Here — 여기서 세워주세요 (Stop here please) | yeo-gi
-거기	There — 거기 어디예요? (Where is that?) | geo-gi
-저기	Over there — 저기요! (Excuse me! / Hey!) | jeo-gi
-이거/그거/저거	This/that/that over there — 이거 주세요 (This one please) | i-geo/geu-geo/jeo-geo
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/practical_basics.tsv`](./import/practical_basics.tsv)

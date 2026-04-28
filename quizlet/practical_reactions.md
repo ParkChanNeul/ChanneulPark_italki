@@ -141,20 +141,8 @@ cards:
 
 ## Quizlet Import
 
-> 아래 내용을 전체 복사 → Quizlet "가져오기" → 붙여넣기
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
 > 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
 
-```
-[When] Anyone says anything — just respond warmly	아 네~ | ah ne~ | Ah yes~ (universal soft response)
-[When] Someone says something interesting or surprising	진짜요? | jin-jja-yo? | Really?
-[When] You see or hear something impressive	대박! | dae-bak! | Amazing! / Wow!
-[When] You're shocked or amazed	헐! | heol! | OMG! / Whoa!
-[When] Hear bad news, bump into something, feel exhausted	아이고~ | ai-go~ | Oh my~ (surprise/sympathy)
-[When] Someone offers something you don't want	괜찮아요~ | gwaen-chan-a-yo~ | I'm fine / No thanks / It's OK
-[When] You don't understand what someone said	잘 모르겠어요~ | jal mo-reu-gess-eo-yo~ | I'm not sure~
-[When] Someone keeps talking Korean and you're lost	한국말 잘 몰라요~ | han-guk-mal jal mol-la-yo~ | I don't know Korean well~
-[When] Anyone does something nice for you	감사해요~ | gam-sa-hae-yo~ | Thank you~ (polite, warm)
-[When] Someone compliments you — be humble	아니에요~ | a-ni-e-yo~ | No no~ / Not at all~
-[When] You agree with what someone said	맞아요! | maj-a-yo! | That's right! / Exactly!
-[When] Someone explains something to you — show understanding	네~ 알겠어요 | ne~ al-gess-eo-yo | Yes~ I understand / Got it
-```
+- 바로 붙여넣기용 파일: [`import/practical_reactions.tsv`](./import/practical_reactions.tsv)

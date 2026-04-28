@@ -10,44 +10,52 @@
 ### 1. 새 세트 만들기
 - 이 파일의 구조를 복사
 - `set_info`와 `cards` 섹션 채우기
-- `QUIZLET IMPORT` 섹션은 cards에서 자동 생성 가능
+- 대응하는 `import/{set_name}.tsv` 파일은 cards에서 자동 생성 가능
 
 ### 2. Quizlet에 가져오기
-- `QUIZLET IMPORT` 섹션의 내용을 전체 복사
-- Quizlet → "만들기" → "가져오기" → 붙여넣기
+- 대응하는 `import/{set_name}.tsv` 파일을 연다
+- 파일 내용을 전체 복사
+- Quizlet "만들기" > "가져오기"에 붙여넣기
 - 설정: 용어와 정의 구분 = `탭(Tab)` / 카드 구분 = `줄바꿈`
 
 ### 3. 자동화 파이프라인
 - LLM은 `cards` YAML을 파싱하여 새 카드 생성
 - `front`/`back` 필드는 카드 `type`에 따라 규칙적으로 생성
-- 생성 후 `QUIZLET IMPORT` 섹션도 함께 출력
+- 생성 후 `import/{set_name}.tsv` 순수 붙여넣기 파일도 함께 출력
+- 질문 응답 훈련이 필요한 세트는 `qna_cards`에서 `import/qna/{set_name}_qna.tsv`도 함께 출력
 
 ---
 
 ## 카드 유형별 Front/Back 규칙
 
 ### 🟢 vocab (단어)
-```
-Front: {korean}
-Back:  {english} | {pronunciation}
+```text
+Front: {korean} ({pronunciation})
+Back:  {english}. Example: {korean_example} = {english_example}.
 ```
 
 ### 🔵 grammar (문법 패턴)
-```
-Front: {korean} (pattern)
-Back:  {english} — {note} | {pronunciation}
+```text
+Front: {korean} ({pronunciation})
+Back:  {simple_use}. Example: {korean_example} = {english_example}.
 ```
 
 ### 🟢 expression (표현 — Q&A-First)
-```
-Front: [Situation] {context_english}
-Back:  {korean} | {pronunciation}
+```text
+Front: {korean} ({pronunciation})
+Back:  {english}. Situation: {context_english}.
 ```
 
 ### 🟡 reaction (리액션)
+```text
+Front: {korean} ({pronunciation})
+Back:  {english}. Use when: {context_english}.
 ```
-Front: [When] {context_english}
-Back:  {korean} | {pronunciation} | {english}
+
+### 🧩 qa_drill (질문/답변 훈련)
+```text
+Front: [Q] {korean_question} ({question_sound}) / [A] {korean_answer} ({answer_sound})
+Back:  [Q] {english_question} / [A] {english_answer}
 ```
 
 ---
@@ -78,7 +86,21 @@ cards:
     pronunciation: ""         # 로마자 발음 (dash-separated syllables)
     english: ""               # 영어 번역
     context: ""               # 사용 상황 (영어, 짧게)
-    note: ""                  # 추가 메모 (선택, 비워도 됨)
+    note: ""                  # 교사용 메모 (선택, Quizlet 뒷면에 길게 넣지 않음)
+    simple_use: ""            # grammar 전용: 학생용 짧은 사용 설명
+    korean_example: ""        # Quizlet 뒷면 예문
+    english_example: ""       # Quizlet 뒷면 예문 번역
+
+qna_cards:
+  - id: ""                    # 예: w3-q01, f2-q04
+    type: "qa_drill"
+    korean_question: ""       # 학생이 듣거나 받을 한국어 질문
+    question_sound: ""        # 질문 발음
+    korean_answer: ""         # 학생이 말할 한국어 답변
+    answer_sound: ""          # 답변 발음
+    english_question: ""      # 질문 영어 뜻
+    english_answer: ""        # 답변 영어 뜻
+    source: ""                # role play, micro-drill, review 등
 # === END METADATA ===
 ```
 
@@ -99,21 +121,19 @@ cards:
 | Practical 리액션 | p1- | p1-01, p1-02 |
 | Practical 패턴 | p2- | p2-01, p2-02 |
 | Practical 기초 | p3- | p3-01, p3-02 |
+| Q/A Drill companion | {prefix}-q | w3-q01, p1-q06 |
 
 ---
 
 ## Quizlet Import 형식
 
-```
-# === QUIZLET IMPORT ===
-# 아래 내용을 전체 복사 → Quizlet "가져오기"에 붙여넣기
-# 설정: 용어-정의 구분 = Tab / 카드 구분 = 줄바꿈
-#
-{front}	{back}
-{front}	{back}
+```text
+{front}<TAB>{back}
+{front}<TAB>{back}
 ...
-# === END IMPORT ===
 ```
 
 > ⚠️ `{front}`과 `{back}` 사이는 반드시 **TAB 문자**로 구분.
 > 줄바꿈 = 카드 구분.
+> 실제 학생 전달용 파일은 `import/{set_name}.tsv`에 저장한다.
+> Q/A Drill 파일은 `import/qna/{set_name}_qna.tsv`에 저장한다.

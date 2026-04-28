@@ -51,27 +51,8 @@ cards:
 
 ## Quizlet Import
 
-```
--야/이야	Casual speech ending (friends/fans) — -요 for strangers, -야 for friends | -ya/i-ya
-예쁜이들	Pretty ones — K-YouTuber term for subscribers | ye-ppeu-ni-deul
-오늘도	Again today — 도 means 'also'. Ex: 오늘도 왔어! | o-neul-do
-댓글	Comment (online) — 댓글로 알려줘! (Tell me in comments!) | daet-geul
-좋아요	Like (button) / I like it — 좋아요 눌러줘~ | jo-a-yo
-구독	Subscribe / subscription — 구독 눌러줘~ | gu-dok
-사랑해요	Love you (community, not romantic) — K-YouTuber standard closer | sa-rang-hae-yo
-[Situation] Start your vlog/TikTok — cute style	안녕 예쁜이들~ 오늘도 왔어! | an-nyeong ye-ppeu-ni-deul~ o-neul-do wass-eo!
-[Situation] Start your vlog — cool style	야~ 다들 잘 지냈어? | ya~ da-deul jal ji-naess-eo?
-[Situation] End your video — warm closer	오늘도 봐줘서 고마워~ | o-neul-do bwa-jwo-seo go-ma-wo~
-[Situation] Ask viewers to comment	댓글로 알려줘! | daet-geul-lo al-ryeo-jwo!
-[Situation] CTA at end of video	좋아요 구독 눌러줘~ | jo-a-yo gu-dok nul-reo-jwo~
-ㅋㅋㅋ	Hahaha (Korean LOL) — text/comment laughter | keu-keu-keu
-ㅠㅠ	Crying face (so touched) — emotional text reaction | yu-yu
-ㄹㅇ	For real — 초성 shorthand of 리얼 | ri-eol
-ㅇㅈ	I agree / facts — 초성 of 인정 | in-jeong
-개웃겨	So freaking funny — strong casual reaction | gae-ut-gyeo
-미쳤어	That's insane! (compliment) — amazingly good | mi-chyeoss-eo
-찐이야	That's legit / the real deal — authentic | jjin-i-ya
-인정	I acknowledge / agree — showing agreement | in-jeong
-[When] React to something funny	ㅋㅋㅋ 개웃겨! | keu-keu-keu gae-ut-gyeo!
-[When] React to something impressive	미쳤어! 대박! | mi-chyeoss-eo! dae-bak!
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/week4_review.tsv`](./import/week4_review.tsv)

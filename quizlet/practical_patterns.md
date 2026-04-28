@@ -42,20 +42,8 @@ cards:
 
 ## Quizlet Import
 
-```
--주세요	Please do~ (polite request) — attach to verb stem. Ex: 가주세요 | ju-se-yo
--(으)로	To/toward (direction) — 받침→으로, no 받침→로. Ex: 홍대로 | -(eu)ro
--요	Polite ending — attach to make any speech polite | -yo
--아요/어요	Polite present (feelings/states) — 양성→아요, 음성→어요, 하다→해요 | -a-yo/eo-yo
--(이)요	Polite noun ending (ordering) — Ex: 포장이요, 카드요 | -(i)yo
--야/이야	Casual ending (friends/fans) — -요 for strangers, -야 for friends | -ya/i-ya
--ㄹ게요	I will~ (promise/intention) — Ex: 먹고 갈게요, 볼게요 | -l-ge-yo
--고	And (connecting actions) — Ex: 먹고 갈게요 (eat and go) | -go
--에서	At/in (where action happens) — Ex: 여기에서 세워주세요 | -e-seo
--겠-	Probably / I think / will — Ex: 모르겠어요, 알겠어요 | -gess-
-안-	Not (before verb) — Ex: 안 돼요 (It's not okay) | an-
--지 않다	Not (after verb — formal) — Ex: 모르지 않아요 | -ji an-ta
--ㅂ니다/습니다	Formal polite ending — Ex: 감사합니다 | -m-ni-da/seup-ni-da
--고 싶다	Want to~ (desire) — Ex: 가고 싶어요 (I want to go) | -go sip-da
--줘	Please do~ (casual) — Ex: 눌러줘, 알려줘 | -jwo
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/practical_patterns.tsv`](./import/practical_patterns.tsv)

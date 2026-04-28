@@ -42,20 +42,8 @@ cards:
 
 ## Quizlet Import
 
-```
-좋다	To be good / nice — 좋아요! (It's good!) | jo-ta
-크다	To be big / large — 커요 (It's big) | keu-da
-작다	To be small — 작아요 (It's small) | jak-da
-많다	To be many / a lot — 많아요 (There's a lot) | man-ta
-예쁘다	To be pretty — 너무 예뻐요! (So pretty!) | ye-ppeu-da
-맛있다	To be delicious — 맛있어요! (It's delicious!) | mas-iss-da
-맛없다	To not be tasty — 맛없어요 | mas-eop-da
-비싸다	To be expensive — 비싸요! | bi-ssa-da
-싸다	To be cheap — 싸요! | ssa-da
-부끄럽다	To be shy/embarrassed — ㅂ irregular: 부끄러워요 | bu-kkeu-reop-da
-궁금하다	To be curious — 뭐가 궁금한지~ | gung-geum-ha-da
-따뜻하다	To be warm — 따뜻한 거 하나 주세요 | tta-tteut-ha-da
-차갑다	To be cold (drink) — 차가운 거 주세요 | cha-gap-da
-부족하다	To be insufficient — 아직 많이 부족해요~ | bu-jok-ha-da
-괜찮다	To be okay / fine — 괜찮아요~ (Universal!) | gwaen-chan-ta
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/foundation_adjectives.tsv`](./import/foundation_adjectives.tsv)

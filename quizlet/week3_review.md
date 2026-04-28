@@ -48,25 +48,8 @@ cards:
 
 ## Quizlet Import
 
-```
-아이스 아메리카노	Iced Americano — the Korean cafe staple | a-i-seu a-me-ri-ka-no
-아아	Iced Americano (Korean slang abbreviation) | a-a
-하나	One (native Korean number) — used for ordering | ha-na
-포장	Takeout / to go | po-jang
-영수증	Receipt — 영수증 드릴까요? (Need a receipt?) | yeong-su-jeung
-얼마	How much — 이거 얼마예요? | eol-ma
-혼자	Alone / by myself — 혼자 볼게요~ (Just browsing) | hon-ja
--(이)요	Polite order ending — attach to noun. Ex: 포장이요 | -(i)yo
--ㄹ게요	I'll~ (soft intention) — Ex: 먹고 갈게요, 볼게요 | -l-ge-yo
-[Situation] Order iced americano to go	아아 하나 포장이요 | a-a ha-na po-jang-i-yo
-[Situation] Tell barista you'll stay (for here)	먹고 갈게요 | meok-go gal-ge-yo
-[Situation] Ask the price while shopping	이거 얼마예요? | i-geo eol-ma-ye-yo?
-[Situation] Shop staff asks if you need help	괜찮아요, 저 혼자 볼게요~ | gwaen-chan-a-yo, jeo hon-ja bol-ge-yo~
-[When] Someone offers something you don't want	괜찮아요~ | gwaen-chan-a-yo~ | I'm fine / No thanks~
-[When] Asked about points card or membership	없어요~ | eop-seo-yo~ | I don't have one~
-[Situation] Barista asks "here or to go?"	포장이요 | po-jang-i-yo
-[Situation] Order a hot drink	따뜻한 거 하나 주세요 | tta-tteut-han geo ha-na ju-se-yo
-적립	Points / rewards accumulation — 포인트 적립 하시나요? | jeok-rip
-[Situation] Point at item and order	이거 주세요 | i-geo ju-se-yo
-카드	Card (credit/debit) — 카드 결제요 (Card payment) | ka-deu
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/week3_review.tsv`](./import/week3_review.tsv)

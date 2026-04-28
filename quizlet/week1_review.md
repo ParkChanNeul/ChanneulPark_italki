@@ -87,7 +87,7 @@ cards:
     pronunciation: "-(eu)ro"
     english: "To / toward (direction particle)"
     context: "Indicating destination"
-    note: "받침 있으면 으로, 없으면 로 (홍대로, 강남으로)"
+    note: "Practice destination chunks first: 홍대로, 강남으로"
 
   - id: w1-08
     type: grammar
@@ -132,8 +132,8 @@ cards:
     korean: "기사님, 강남으로 가주세요"
     pronunciation: "gi-sa-nim, gang-nam-eu-ro ga-ju-se-yo"
     english: "Driver, please go to Gangnam"
-    context: "Tell the taxi your destination (with 받침)"
-    note: "강남 ends in ㅁ → 으로"
+    context: "Tell the taxi your destination"
+    note: "강남으로 is the natural chunk for Gangnam."
 
   # --- 🟡 방어/리액션 (reaction) ---
   - id: w1-13
@@ -196,26 +196,8 @@ cards:
 
 ## Quizlet Import
 
-> 아래 내용을 전체 복사 → Quizlet "가져오기" → 붙여넣기
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
 > 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
 
-```
-기사님	Driver (respectful title for taxi driver) | gi-sa-nim
-여기	Here (pointing to location) | yeo-gi
-천천히	Slowly | cheon-cheon-hi
-한국말	Korean language (casual) | han-guk-mal
-죄송해요	I'm sorry (polite, friendly) | joe-song-hae-yo
--주세요	Please do ~ (polite request) — attach to verb stem | ju-se-yo
--(으)로	To/toward (direction) — 받침 있으면 으로, 없으면 로 | -(eu)ro
--요	Polite sentence ending — add to make speech polite | -yo
-[Situation] Tell the taxi driver to go to Hongdae	기사님, 홍대로 가주세요 | gi-sa-nim, hong-dae-ro ga-ju-se-yo
-[Situation] Tell the taxi to stop here	여기서 세워주세요 | yeo-gi-seo se-wo-ju-se-yo
-[Situation] Ask the driver to go slowly	천천히 가주세요 | cheon-cheon-hi ga-ju-se-yo
-[Situation] Tell the taxi to go to Gangnam	기사님, 강남으로 가주세요 | gi-sa-nim, gang-nam-eu-ro ga-ju-se-yo
-[When] Someone asks something you don't understand	잘 모르겠어요~ | jal mo-reu-gess-eo-yo | I'm not sure~
-[When] Someone keeps talking Korean to you	한국말 잘 몰라요~ | han-guk-mal jal mol-la-yo | I don't know Korean well~
-[When] Someone says anything — just respond warmly	아 네~ | ah ne~ | Ah yes~ (universal soft response)
-[When] You're surprised or empathizing	아이고~ | ai-go~ | Oh my~ (surprise/sympathy)
-[When] Someone says something surprising	진짜요? | jin-jja-yo? | Really?
-[When] Leaving the taxi — thank the driver	감사합니다 | gam-sa-ham-ni-da | Thank you (formal)
-```
+- 바로 붙여넣기용 파일: [`import/week1_review.tsv`](./import/week1_review.tsv)

@@ -46,20 +46,8 @@ cards:
 
 ## Quizlet Import
 
-```
-하나	One (native Korean) — for ordering: 아아 하나 포장이요 | ha-na
-둘	Two (native Korean) — 두 잔 주세요 (Two cups please) | dul
-셋	Three (native Korean) — 하나 둘 셋~! (countdown) | set
-넷	Four (native Korean) | net
-다섯	Five (native Korean) | da-seot
-일/이/삼/사/오	1/2/3/4/5 (sino-Korean) — for prices and phone numbers | il/i/sam/sa/o
-육/칠/팔/구/십	6/7/8/9/10 (sino-Korean) — for prices and phone numbers | yuk/chil/pal/gu/sip
-개	Counter for things (general) — 이거 두 개 주세요 | gae
-잔	Counter for cups/glasses — 커피 한 잔 | jan
-명	Counter for people — 두 명이요 (Two people) | myeong
-원	Won (Korean currency) — 오천 원이에요 (5,000 won) | won
-번	Counter for times — 한 번 더 (One more time) | beon
-한/두/세/네	1/2/3/4 before counters — 한 잔, 두 개, 세 명, 네 번 | han/du/se/ne
-천	Thousand — 오천 원 (5,000 won) | cheon
-만	Ten thousand — 삼만 원 (30,000 won) | man
-```
+> Quizlet에는 이 `.md` 파일을 붙여넣지 않습니다.
+> 아래 순수 TSV 파일을 열고 전체 복사해서 Quizlet 가져오기 창에 붙여넣으세요.
+> 설정: 용어-정의 구분 = **Tab** / 카드 구분 = **줄바꿈**
+
+- 바로 붙여넣기용 파일: [`import/foundation_numbers.tsv`](./import/foundation_numbers.tsv)
