@@ -1,7 +1,7 @@
 # ☕ Week 3 복습: Cafe & Shopping
 
 > **카테고리**: Weekly | **레벨**: Beginner | **카드 수**: 20장 | **생성일**: 2026-04-27
-> **연결 수업**: week3_cafe_shopping_v2.md
+> **연결 수업**: ../lessons/week3_cafe_shopping_v2.md
 
 ---
 

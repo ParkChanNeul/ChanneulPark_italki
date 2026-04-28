@@ -1,7 +1,7 @@
 # 📱 Week 4 복습: Content Creator Korean
 
 > **카테고리**: Weekly | **레벨**: Beginner | **카드 수**: 22장 | **생성일**: 2026-04-27
-> **연결 수업**: week4_vlog_streaming_v2.md
+> **연결 수업**: ../lessons/week4_vlog_streaming_v2.md
 
 ---
 

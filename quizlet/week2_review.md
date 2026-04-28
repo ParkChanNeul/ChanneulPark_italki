@@ -1,7 +1,7 @@
 # 💞 Week 2 복습: Fan Interaction
 
 > **카테고리**: Weekly | **레벨**: Beginner | **카드 수**: 20장 | **생성일**: 2026-04-27
-> **연결 수업**: week2_fan_interaction_v2.md
+> **연결 수업**: ../lessons/week2_fan_interaction_v2.md
 
 ---
 

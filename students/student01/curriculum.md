@@ -80,7 +80,7 @@
 
 ## 📌 4대 교수법 원칙 적용 지침 ← NEW (첫 수업 피드백 반영)
 
-> 상세 가이드: `teaching_methodology.md` 참조
+> 상세 가이드: `../../methodology/teaching_methodology.md` 참조
 
 ### SHOW IT (시각적 문법)
 - 아이패드에 GoodNotes/Notability로 색 펜 사용

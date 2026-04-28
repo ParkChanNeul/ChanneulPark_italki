@@ -37,10 +37,10 @@
 
 | 파일 | 카드 수 | 주제 | 연결 수업 |
 |------|--------|------|----------|
-| [`week1_review.md`](./week1_review.md) | 18장 | 🚕 택시 생존: 목적지, 하차, 방어 문장, 리액션 | `week1_taxi_moving_v2.md` |
-| [`week2_review.md`](./week2_review.md) | 20장 | 💞 팬 소통: 리액션, 겸손 응답, 사진 찍기 | `week2_fan_interaction_v2.md` |
-| [`week3_review.md`](./week3_review.md) | 20장 | ☕ 카페/쇼핑: 주문, 알바생 3대 질문, 가격 | `week3_cafe_shopping_v2.md` |
-| [`week4_review.md`](./week4_review.md) | 22장 | 📱 콘텐츠: 오프닝/클로징, 인터넷 슬랭, 팬덤 | `week4_vlog_streaming_v2.md` |
+| [`week1_review.md`](./week1_review.md) | 18장 | 🚕 택시 생존: 목적지, 하차, 방어 문장, 리액션 | [`../lessons/week1_taxi_moving_v2.md`](../lessons/week1_taxi_moving_v2.md) |
+| [`week2_review.md`](./week2_review.md) | 20장 | 💞 팬 소통: 리액션, 겸손 응답, 사진 찍기 | [`../lessons/week2_fan_interaction_v2.md`](../lessons/week2_fan_interaction_v2.md) |
+| [`week3_review.md`](./week3_review.md) | 20장 | ☕ 카페/쇼핑: 주문, 알바생 3대 질문, 가격 | [`../lessons/week3_cafe_shopping_v2.md`](../lessons/week3_cafe_shopping_v2.md) |
+| [`week4_review.md`](./week4_review.md) | 22장 | 📱 콘텐츠: 오프닝/클로징, 인터넷 슬랭, 팬덤 | [`../lessons/week4_vlog_streaming_v2.md`](../lessons/week4_vlog_streaming_v2.md) |
 
 **소계: 80장**
 
@@ -109,11 +109,11 @@
 새 세트를 자동 생성할 때:
 
 1. `_template.md`의 YAML 구조와 Front/Back 규칙을 읽는다
-2. 해당 Week의 v2 커리큘럼 파일 (`week{N}_*_v2.md`)에서 치트시트와 표현을 추출한다
+2. 해당 Week의 v2 커리큘럼 파일 (`../lessons/week{N}_*_v2.md`)에서 치트시트와 표현을 추출한다
 3. 카드 유형(vocab/grammar/expression/reaction)에 따라 front/back을 생성한다
 4. YAML 메타데이터 + Quizlet Import TSV를 함께 출력한다
 
 **참조 파일**:
-- 교수법: `../teaching_methodology.md` (4대 원칙, Q&A-First Method, 배포 시스템)
-- 커리큘럼: `../week{1-4}_*_v2.md` (주차별 수업 매뉴얼)
-- 브랜드: `../italki_brand_guideline.md` (색상 체계, 시그니처 요소)
+- 교수법: `../methodology/teaching_methodology.md` (4대 원칙, Q&A-First Method, 배포 시스템)
+- 커리큘럼: `../lessons/week{1-4}_*_v2.md` (주차별 수업 매뉴얼)
+- 브랜드: `../strategy/italki_brand_guideline.md` (색상 체계, 시그니처 요소)

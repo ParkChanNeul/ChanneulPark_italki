@@ -1,7 +1,7 @@
 # 🚕 Week 1 복습: Taxi Survival
 
 > **카테고리**: Weekly
-> **연결 수업**: week1_taxi_moving_v2.md
+> **연결 수업**: ../lessons/week1_taxi_moving_v2.md
 > **레벨**: Beginner
 > **카드 수**: 18장
 > **생성일**: 2026-04-27
